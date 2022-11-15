@@ -128,6 +128,8 @@ public class test {
 		addizione (4,4);
 		int somma2 = somma(1,3);
 		int sottrazione = differenza(10,5);
+		int moltiplicazione = moltiplicazione(10,10);
+		int divisione =  divisione(20,2);
 		System.out.println(somma2 + " " + sottrazione);
 		Persona persona1 = new Persona("marco","campanale",19,"rosso"); // dichirazione della classe persona
 		Persona persona2 = new Persona("test", "test1", 20, "blu");
@@ -155,6 +157,14 @@ public class test {
 	}
 	static int differenza (int a, int b) {
 		int r = a-b;
+		return r;
+	}
+	static int moltiplicazione (int d,int f){
+		int r = d* f;
+		return r;
+	}
+	static int divisione (int c, int d){
+		int r = c/d;
 		return r;
 	}
 	
